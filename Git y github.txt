@@ -1,0 +1,8 @@
+Git y Github
+
+git es para unir codigo de otros programadores y trabajr todos juntos desde ese lugar. facilita mucho la interaccion con todos los programadores
+
+comit:son las versiones del proyecto que se esta realizando. El comit sirve para trabajar paralela sobre una version de codigo que ya existe.
+
+
+

@@ -1,0 +1,62 @@
+confirm(): muestra una caja de dialogo(alert) con un mensaje y un boton de "ok" y "cancelar". Devuelve un boleano True si oprimio ok y devuelve un false si oprimio cancelar
+
+Number(): EL metodo number convierte los datos ingresados en numeros, es decir los numeros ingresados estaran en formato string por defecto, con Number los podemos pasar a datos numericos. 
+
+	Tambien se puede usar para comparar en condiciones:
+	Number(`10`) = 10
+	Number(`25`)==25 ----> esto devuelve un True (pregunta si el 25 ingresado como string es igual al numero 25
+	Number(`30`)== `30`-----> esto devuelve un False (pregunta si el 30 ingresado como string y convertido a  numero es igual a 30 ingresado como string
+
+ParseInt:
+
+
+--------------------METODOS PARA ARREGLOS-------------
+NombreDelArreglo.push(): sirve para ingresar datos o elemento luego del ultimo elemento
+
+NombreDelArreglo.pop(); elimina el ultimo elemento del arreglo
+
+NombreDelArreglo.concat(NombreDelAreegloParaConcatenar); concatena un arreglo con otro, lo podemos guardar en otro arreglo que contenga todos los elementos de los 2 arreglos
+
+NombreDelArreglo.join(" - "): Sirve apra imprimir los elementos de un arreglo separados por los elementos dentro de los parentesis (va a imprimir el arreglo con un guion de por medio entre cada elemento)
+
+NombreDelArreglo.sort(): Ordena los elementos de un elemento alfabeticamente
+
+NombreDelArreglo.reverse(): 
+
+NombreDelArreglo.indexOf(element); si el elemento existe en el arreglo, te devuelve la posicion y si el elemento no existe, te devuelve -1
+
+NombreDelArreglo.splice(Posicion,CantidadDeElementoAEliminar); elimina elementos a partir de la posicion que se le indica, si quero eliminar un solo elemento seria: Arreglo.splice(1,1)
+--------------METODOS PARA CADENAS DE TEXTOS----------------------------------
+
+ - texto.lentgh; retorna el numero de caracteres que tiene una cadena de texto
+
+- tecto.substring(): corta la cadena de texto desde la posicion que le decimos hasta el final
+
+- texto.substr(posicion,cantidad): corta la cadena de texto desde una posicion hasta donde le digamos(cantidad a eliminar)
+
+ - texto.indexOf("letra", posicion desde donde empieza a buscar); indica en que posicion se encuentra una letra, es sensible a may y min DEVUELVE UN NUMERO 
+
+ - texto.lastIndexOf(): igual que el anterior solo que empieza a buscar desde el final
+
+ - texto.replace(textoamodificar,"contenido para modificar"); cambia el valor de un texto por otro.
+
+ - texto.toUpperCase(); convierte el tecto a mayuscula
+
+ - texto.toLowerCase(); convierte el texto a minuscula
+
+---------------------FUNCIONES UTILES-----------------
+
+isNaN():La función isNaN() determina si el valor dado es un número o un número ilegal (Not-a-Number). La función genera como Verdadero para un valor NaN y devuelve Falso para un valor numérico válido. 
+
+console.log(isNaN('195'))  false
+console.log(isNaN('boo'))  true
+console.log(isNaN('100px')) true
+
+
+---------------------objetos-------------
+recorrer las propiedades del elemento de un arreglo
+
+for (const property in object) {
+  console.log(`${property}: ${object[property]}`);
+}
+
