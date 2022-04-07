@@ -1,0 +1,19 @@
+pedir que me expliquen 
+array.map((cosa)=>{
+console.group(`Nombre: ${persona.name}`)
+})
+
+ const listarPersonas=(array)=>{
+      console.log("########USUARIOS#########");
+        array.map((persona)=>{
+            console.group(`Nombre:${persona.name}`)
+            console.log(`Nombre de usuario: ${persona.username}`)
+            console.log(`Email: ${persona.email}`)
+            console.groupEnd();
+            console.log("###############3")
+        })
+  }
+      
+investigar Array.prototype.filter()
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
