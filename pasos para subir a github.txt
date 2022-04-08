@@ -1,0 +1,5 @@
+git init- para crear el repositorio (carpeta oculta)
+git status - para ver el estado
+git add .
+git commit -m "mensaje"
+git push

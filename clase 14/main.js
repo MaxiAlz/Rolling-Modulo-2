@@ -51,4 +51,24 @@
 
  const persona3= new Object();
  persona3.nombre="masi"
+ persona3.correr=
  console.log(persona3);
+
+// objet.create nos se suele usar practicamente
+
+const auto2=Object.create(auto);
+console.log(auto2)
+
+/*comparar objetos: si comparamos dos objetos siempre va a dar false*/
+let persona1={nombre: "juan"};
+let persona2={nombre: "juan"};
+
+persona1==persona2 //esto retorna False, por mas que tengan las mismas propiedades
+/*por que lo que se compara es espacio en memoria, no ocupan la misma direccion de 
+memoria cada objeto*/
+
+/*pero si podemos comparar las propiedades de los objetos y si son
+iguales vana a retortar un true*/
+
+
+
