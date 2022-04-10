@@ -24,6 +24,24 @@ class Moto {
 
 const moto =new Moto("ktm","duke 200","negro");
 //cambiar propiedad desde afuera del objeto
-moto.color="rojo"
+// moto.color="rojo"
 console.log(moto);
+
+//setter y getter
+//permiten acceder a valores o propiedades. 
+
+//son atajos sintacticos pra obeter o establecer valores de propiedades.
+
+//NO SE SUELEN USAR MUCHO
+
+class Rectangulo{
+    constructor(height=0,width=0){
+        this.height= height;
+        this.width=width;
+    }
+    set changeHeight(value){
+        this.height=value;
+    }
+    
+}
 

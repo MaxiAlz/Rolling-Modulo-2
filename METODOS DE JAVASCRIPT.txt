@@ -53,7 +53,8 @@ console.log(isNaN('boo'))  true
 console.log(isNaN('100px')) true
 
 
----------------------objetos-------------
+---------------------objetos-------------}
+
 recorrer las propiedades del elemento de un arreglo
 
 for (const property in object) {
