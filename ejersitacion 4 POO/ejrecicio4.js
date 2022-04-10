@@ -17,12 +17,9 @@ class Producto{
         this.precio=precio;
     }
     //metodos
-    Imprimirdatos(array){
-        array.map((Producto)=>{
-            console.group(`${producto.codigo}`);
-            console.log(`${producto.nombre}`);
-            console.groupEnd(`${producto.precio}`)
-        })
+    Imprimirdatos(){
+        
+        }
     }
 }
 

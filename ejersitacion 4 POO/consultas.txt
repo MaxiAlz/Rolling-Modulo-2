@@ -1,0 +1,6 @@
+ejecicio 3:
+
+como imprimos las propiedades de un objeto que cree en base a una clase.
+
+como se relaciona los objetos de arreglos con las clases?
+osea si qusiera poner un arreglo dentro de un objeto como haria?
