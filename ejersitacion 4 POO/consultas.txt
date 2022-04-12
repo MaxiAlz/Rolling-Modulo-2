@@ -4,3 +4,21 @@ como imprimos las propiedades de un objeto que cree en base a una clase.
 
 como se relaciona los objetos de arreglos con las clases?
 osea si qusiera poner un arreglo dentro de un objeto como haria?
+
+como hacer para crear un objeto a partir de una clase pero que lo haga el usuario. El usuario tiene que crear la variable y asignarle los valores que pida
+
+como funcionan als funciones que reciben otra funcion? 
+Nombrefuncion(otraFuncion=()=>{   }){
+}
+
+ejersicio 6 nose como hacer para hacer referenciar a un objeto dentro de una funcion, es decir, como pongoel objeto en losparametros de una funcion por variables
+
+
+-----------------------
+high order functions (funciones que reciben funciones)
+high order functions
+map forEach, find, filter
+reduce
+
+integrar objetos
+for , for each,for in, for of

@@ -17,11 +17,14 @@ class Producto{
         this.precio=precio;
     }
     //metodos
-    Imprimirdatos(){
-        
+    imprimirdatos(){
+        console.group(`codigo: ${this.codigo}`);
+        console.log(`nombre: ${this.nombre}`);
+        console.log(`precio: ${this.precio}`);
+        console.groupEnd();
         }
     }
-}
+
 
 let producto1=new Producto(001,"leche",152);
 let producto2=new Producto(002,"cafe",50);
