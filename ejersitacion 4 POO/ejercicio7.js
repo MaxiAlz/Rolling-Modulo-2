@@ -21,6 +21,14 @@ Crea un menú con opciones por consola para probar todas estas funcionalidades.
 
 // let agendaDeContactos=[];
 
+//molde para crear el contacto
+class Contacto{
+    constructor(nombre,telefono){
+        this.nombre=nombre
+        this.telefono=telefono
+    }
+}
+
 //objeto de la agenda que tiene como propiedad un array
 class AgendaDeContactos{
     constructor(tamañoAgenda=10){
@@ -62,13 +70,7 @@ class AgendaDeContactos{
 //     console.log(`contacto: ${contacto.nombre} Telefono:${contacto.telefono}`)
 //  }
 
-//molde para crear el contacto
-class Contacto{
-    constructor(nombre,telefono){
-        this.nombre=nombre
-        this.telefono=telefono
-    }
-}
+
 
 let agenda1=new AgendaDeContactos(2);
 let maxi=new Contacto("maxi",123654);//esto proviene del molde de Contacto
