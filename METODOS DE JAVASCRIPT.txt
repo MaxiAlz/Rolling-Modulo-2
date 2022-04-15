@@ -1,4 +1,4 @@
-confirm(): muestra una caja de dialogo(alert) con un mensaje y un boton de "ok" y "cancelar". Devuelve un boleano True si oprimio ok y devuelve un false si oprimio cancelar
+confirm(): muestra una caja de dialogo(alert) con un mensaje y un boton de "ok" y "cancelar". Devuelve un boleano True si oprimio ok y devuelve un false si oprimio cancelar ¡DEVUELVE TRUE O FALSE!
 
 Number(): EL metodo number convierte los datos ingresados en numeros, es decir los numeros ingresados estaran en formato string por defecto, con Number los podemos pasar a datos numericos. 
 
@@ -11,6 +11,7 @@ ParseInt:
 
 
 --------------------METODOS PARA ARREGLOS-------------
+
 NombreDelArreglo.push(): sirve para ingresar datos o elemento luego del ultimo elemento
 
 NombreDelArreglo.pop(); elimina el ultimo elemento del arreglo
@@ -26,6 +27,7 @@ NombreDelArreglo.reverse():
 NombreDelArreglo.indexOf(element); si el elemento existe en el arreglo, te devuelve la posicion y si el elemento no existe, te devuelve -1
 
 NombreDelArreglo.splice(Posicion,CantidadDeElementoAEliminar); elimina elementos a partir de la posicion que se le indica, si quero eliminar un solo elemento seria: Arreglo.splice(1,1)
+
 --------------METODOS PARA CADENAS DE TEXTOS----------------------------------
 
  - texto.lentgh; retorna el numero de caracteres que tiene una cadena de texto
@@ -53,6 +55,8 @@ console.log(isNaN('boo'))  true
 console.log(isNaN('100px')) true
 
 
+
+
 ---------------------objetos-------------}
 
 recorrer las propiedades del elemento de un arreglo
@@ -61,3 +65,15 @@ for (const property in object) {
   console.log(`${property}: ${object[property]}`);
 }
 
+------------------METODOS MUY USADOS---------------
+ find(); map();filter()
+
+const inventario = [
+    {nombre: 'manzanas', cantidad: 2},
+    {nombre: 'bananas', cantidad: 0},
+    {nombre: 'cerezas', cantidad: 5}
+];
+
+const resultado = inventario.find("codigo que retorne True para guardarlo en la variable resultado");
+
+console.log(resultado); // { nombre: 'cerezas', cantidad: 5 }
