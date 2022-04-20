@@ -23,6 +23,7 @@ console.log(arrayobjet)
 //me elimona el objeto de array original guarda con eso
 
 //para que  no me modifique el array original debo usar slice()
+// devuelve los elemento eliminados
 
 let myArray = [
     {id:1, name:'Morty'},
@@ -32,6 +33,8 @@ let myArray = [
 var newArray = myArray.slice(0, 1);//dme va a devolver los elementos elimonades desde la posicion 1 a 3
 
 console.log(newArray)
+
+//el metodo filter devuelve un array con los elementos que pasan una condicion
 
 
 
